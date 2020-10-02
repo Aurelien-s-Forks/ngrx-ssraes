@@ -11,6 +11,14 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+    "paths": {
+      "@actions/*": ["./src/app/actions/*"],
+      "@models/*": ["./src/app/models/*"],
+      "@reducers/*": ["./src/app/reducers/*"],
+      "@states/*": ["./src/app/states/*"],
+      "@store/*": ["./src/app/store/*"],
+      "@environments/*": ["./src/environments/*"],
+    },
     "module": "es2020",
     "lib": [
       "es2018",
